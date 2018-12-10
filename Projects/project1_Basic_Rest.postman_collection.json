@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "173a1d41-108d-408d-9b91-0b6f86b20d01",
+		"name": "project1_Basic_Rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/Secured_Web/Projects/project1/Basic_Rest.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/Secured_Web/Projects/project1/Basic_Rest.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Secured_Web",
+						"Projects",
+						"project1",
+						"Basic_Rest.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Secured_Web/Projects/project1/Basic_Rest.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Jason",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "Statham",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "6573476",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Secured_Web/Projects/project1/Basic_Rest.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Secured_Web",
+						"Projects",
+						"project1",
+						"Basic_Rest.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Secured_Web/Projects/project1/Basic_Rest.php",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"id\":\"27\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Secured_Web/Projects/project1/Basic_Rest.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Secured_Web",
+						"Projects",
+						"project1",
+						"Basic_Rest.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Secured_Web/Projects/project1/Basic_Rest.php",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"id\":\"11\",\n\t\"first_name\":\"Hamza\",\n\t\"last_name\":\"Rabie\",\n\t\"phone_number\":\"54441190\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Secured_Web/Projects/project1/Basic_Rest.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Secured_Web",
+						"Projects",
+						"project1",
+						"Basic_Rest.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
